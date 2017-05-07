@@ -1,0 +1,5 @@
+<!--pages/my/my.wxml-->
+<view class="wrapper">
+    <text class="my">我就是我，不一样的烟火</text>
+</view>
+

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<swiper indicator-dots="{true}}"
+  autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}"
+  style="width:100%; height: {{scrolly}}">
+  <block wx:for="{{imgUrls}}" wx:key="{{n++}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" class="img"/>
+    </swiper-item>
+  </block>
+</swiper>

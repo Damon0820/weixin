@@ -1,0 +1,10 @@
+/* pages/my/my.wxss */
+.wrapper{
+    width:100%;
+    padding-top:300rpx;
+    text-align: center;
+}
+.my{
+    font-size:22px;
+    color:gold;
+}

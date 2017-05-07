@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/mv/mv",   
+    "pages/music/music",
+    "pages/my/my",
+    "pages/musicplay/musicplay"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#afa",
+    "navigationBarTitleText": "Chimney娱乐",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+
+    "borderStyle": "white",
+    "color": "#bfbfbf",
+    "selectedColor": "#2cc515",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "./public/img/icon/home.png",
+      "selectedIconPath":"./public/img/icon/home_s.png"
+    }, {
+      "pagePath": "pages/music/music",
+      "text": "音乐",
+      "iconPath": "./public/img/icon/music.png",
+      "selectedIconPath":"./public/img/icon/music_s.png"
+    }, {
+      "pagePath": "pages/mv/mv",
+      "text": "MV",
+      "iconPath": "./public/img/icon/mv.png",
+      "selectedIconPath":"./public/img/icon/mv_s.png"
+    }, {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "./public/img/icon/my.png",
+      "selectedIconPath":"./public/img/icon/my_s.png"
+    }]
+  }
+}

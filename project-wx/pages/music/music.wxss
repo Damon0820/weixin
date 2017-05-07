@@ -1,0 +1,34 @@
+/* pages/music/music.wxss */
+
+.item{
+    border-top:1px solid rgb(254, 223, 225);
+    padding:10px 0;
+    height:60px;
+    margin: 0 20px;
+    
+}
+
+.item:first-child{
+    border:0;
+}
+.poster{
+    float:left;
+}
+.describe{
+    float:left;
+    padding-left:50px;
+    padding-top:10px;
+}
+.poster_img{
+    width:60px;
+    height:60px;
+}
+.author{
+    font-size:14px;
+    padding-top:10px;
+
+}
+.download{
+    float:right;
+    margin:20px 10px 0 0;
+}

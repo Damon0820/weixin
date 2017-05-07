@@ -1,0 +1,19 @@
+<!--pages/music/music.wxml-->
+
+
+<scroll-view scroll-y="true" style="height: {{scrolly}}">
+    <view wx:for="{{musicList}}" wx:key="{{item.id}}" class="item" bindtap="tap" id="{{item.id}}">
+
+            <view class="poster">
+                <image src="{{item.poster}}" class="poster_img"></image>
+            </view>
+            <view class="describe">
+                <view class="name">{{item.name}}</view>
+                <view class="author">{{item.author}}                 </view>
+            </view>
+            <icon type="download" size="20" class="download"/>
+        
+    </view>
+    
+</scroll-view>
+
